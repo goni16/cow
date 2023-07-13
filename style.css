@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar ul li a{
+    color: green;
+}
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 10%;
+    transform: scale(1.2);
+}
+.nav-img{
+    width: 5%;
+    height: 40px;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6),#081d1a),url(vagetables.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.detels{  
+    width: 50%;
+    margin-top: 25%;
+
+}
+.detels h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.detels span{
+    color: orange;
+}
+.detels p{
+    color: white;
+    line-height: 20px;
+}
+.detels b{
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.detels a{
+   padding: 5px 30px;
+   color: black;
+   background-color: #FDAC61;
+   border-radius: 50px 50px;
+   text-decoration: none;
+   transition: 1s;
+}
+.detels a:hover{
+    background-color: #9BA4B5;
+    color: #fff;
+    transform: scale(2.1);
+
+}
+.card-div{
+    width: 100%;
+    height: 70vh;
+    background-color: #F6F1F1;
+}
+.service-card{
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+/******** service*****/
+.service-div h1{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.service-div p{
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+
+/******* card********************/
+.img-vagetables{
+    width: 85%;
+    height: 90%;
+}
+/**********icon***/
+.hippo{
+    font-size: 60px;
+    padding-left: 40%;
+}
+.wave{
+    font-size: 60px;
+    padding-left: 40%;
+}
+.shap{
+    font-size: 60px;
+    padding-left: 40%;
+}
+.animal{
+    width: 100%;
+    height: 90%;
+}
+/**********about*******************/
+.about{
+    width: 100%;
+    height: 71vh;
+    background-image:linear-gradient(rgba(103, 128, 128, 0),#0c1d1a),url(51262746.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.div-box{
+    width: 100%;
+    height: 400px;
+    background-color: #61B15A;
+    padding-top: 72px;
+    margin-top: 10px;
+}
+.box{
+    background-color: white;
+    padding: 38px 10px;
+    border-radius: 15px 15px;
+    box-shadow: 0 0 1rem black;
+
+}
+.chili{
+    width: 100%;
+}
+.box h2{
+    color: #61B15A;
+}
+/*************************about-img****/
+.cow{
+    width: 50%;
+    height: 50%;
+    margin-top: 80px;
+    float: left;
+}
+.taxt-div{
+    width: 50%;
+    height: 50%;
+    margin-top: 90px;
+    padding-left: 90px;
+    float: left;
+}
+.taxt-div h3{
+    color: #61B15A;
+    text-align: center;
+}
+.taxt-div h1{
+    color: #61B15A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.taxt-div a{
+    background-color: #61B15A;
+    color: #F6F1F1;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 15px 15px;
+    transition: 2s;
+}
+.taxt-div a:hover{
+    background-color: #9BA4B5;
+    color: black;
+    transform: scale(2.2);
+
+}
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color:white;
+}
+.contact{
+    width: 100%;
+    height: 60vh;
+    background-color: gray;
+}
+.card{
+    width: 25%;
+    height: 450px;
+    margin: 5px 3px;
+}
+.card-img{
+    text-align: center;
+    padding: 10px;
+}
+.img-card{
+    width: 50%;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 70%;
+   
+}
